@@ -16,8 +16,8 @@ void ex1(FunctionType f) {
 
 int main()
 {
-	ex1<int(*)()>(foo);
-	ex1<string(*)()>(bar);
+	ex1(foo);
+	ex1(bar);
 
 	return 0;
 }
